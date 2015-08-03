@@ -22,8 +22,8 @@ This will add the content type called 'Test CT' to the document set called ''Tes
 
 ###Example 2
     PS:> $docset = Get-SPODocumentSetTemplate -Identity "Test Document Set"
-PS:> $ct = Get-SPOContentType -Identity "Test CT"
-PS:> Add-SPOContentTypeToDocumentSet -ContentType $ct -DocumentSet $docset
+    PS:> $ct = Get-SPOContentType -Identity "Test CT"
+    PS:> Add-SPOContentTypeToDocumentSet -ContentType $ct -DocumentSet $docset
 This will add the content type called 'Test CT' to the document set called ''Test Document Set'
 
 ###Example 3
